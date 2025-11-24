@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing CFN Lint"
+      - pip install cfn-lint
+  build:
+    commands:
+      - echo "Validating template..."
+      - cfn-lint template.yaml
+artifacts:
+  files:
+    - template.yaml
