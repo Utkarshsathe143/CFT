@@ -11,4 +11,4 @@ phases:
       - cfn-lint template.yaml
 artifacts:
   files:
-    - template.yaml
+    - template.yml
