@@ -3,6 +3,6 @@ Resources:
   - MyStack:
       Type: AWS::CloudFormation::Stack
       Properties:
-        TemplatePath: template.yaml
+        TemplatePath: template.yml
         StackName: MyInfraStack
         Capabilities: CAPABILITY_NAMED_IAM
